@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* Top Navber Start */
+.top-navbar {
+  background-color: #4761ff;
+  padding: 20px 0px;
+  color: white;
+}
+.top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-right-side {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.top-right-side .address p {
+  font-weight: 500;
+  font-size: 16px;
+}
+.top-right-side .gmail p {
+  color: aliceblue;
+  font-weight: 500;
+  font-size: 17px;
+}
+.top-right-side .number a {
+  color: aliceblue;
+  font-weight: 500;
+  font-size: 16px;
+}
+.top-left-side .number a:hover {
+  text-decoration: underline;
+}
+.top-left-side p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/* Header Start */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  padding: 25px 0px;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-items ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 85px;
+}
+.navbar-items ul li {
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.right-navbar a {
+  text-decoration: none;
+  border: 2px solid #4761ff;
+  background-color: #4761ff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 8px 26px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  transition: 0.4s all;
+}
+.right-navbar a:hover {
+  background-color: #1e34c4;
+  color: #fff;
+}
+/* Header End */
+
+/* Hero section Start */
+.hero {
+  background-image: url("carousel-1.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.hero-content {
+  padding-top: 180px;
+  color: #fff;
+}
+.hero-content h6 {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.hero-content h6 span {
+  font-size: 30px;
+}
+
+.hero-content p {
+  font-size: 75px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-button a {
+  background-color: #4761ff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  padding: 10px 40px;
+  border-radius: 25px;
+  font-size: 16px;
+  color: #fff;
+}
+.hero-button a:hover {
+  background-color: #1e34c4;
+  transition: 0.5s;
+}
